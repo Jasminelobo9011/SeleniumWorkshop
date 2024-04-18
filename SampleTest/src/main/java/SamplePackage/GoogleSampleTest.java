@@ -11,6 +11,7 @@ public class GoogleSampleTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
+		System.out.println("Page Tittle ...."+driver.getTitle());
 
 	}
 
